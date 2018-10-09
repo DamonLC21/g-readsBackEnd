@@ -4,8 +4,16 @@ const knex = require('knex')(connection);
 
 module.exports = {
 
-    listAllItems() {
+    listAllBooks() {
         return knex('books').orderBy('id', 'ascending');
+    },
+
+    listAllAuthors() {
+        return knex('authors').orderBy('id', 'ascending');
+    },
+
+    listAllAuthorsOfBooks(){
+        return knex('books_authors').orderBy('id', 'ascending');
     }
 
 }

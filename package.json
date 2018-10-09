@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/DamonLC21/g-readsBackEnd/issues"
   },
-  "homepage": "https://github.com/DamonLC21/g-readsBackEnd#readme"
+  "homepage": "https://github.com/DamonLC21/g-readsBackEnd#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4"
+  }
 }
